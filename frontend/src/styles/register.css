@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* 確保整個頁面是黑色 */
+    border: none; /* 移除邊框 */
+    overflow: hidden; /* 防止滾動條影響視覺 */
+  }
+.register-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }
+  
+ .register-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+ .register-form-wrapper h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+ .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group input {
+    padding: 0.8rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: cyan;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .register-link {
+    color: cyan;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  } 
